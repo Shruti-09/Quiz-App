@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_l_r"
+            android:paddingTop="@dimen/pad_l_r"
+            android:text="@string/Q1"
+            android:textColor="@color/textCol"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ques1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="electrons and neutrons" />
+
+            <RadioButton
+                android:id="@+id/ques1ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="answer1"
+                android:text="protons and neutrons" />
+
+            <RadioButton
+                android:id="@+id/ques1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="electrons and protons" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_l_r"
+            android:paddingTop="@dimen/pad_l_r"
+            android:text="@string/Q2"
+            android:textColor="@color/textCol"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ques2ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="answer2"
+                android:text="molality" />
+
+            <RadioButton
+                android:id="@+id/ques2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="molarity" />
+
+            <RadioButton
+                android:id="@+id/ques2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="normality" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_l_r"
+            android:paddingTop="@dimen/pad_l_r"
+            android:text="@string/Q3"
+            android:textColor="@color/textCol"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ques3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sodium" />
+
+            <RadioButton
+                android:id="@+id/ques3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bromine" />
+
+            <RadioButton
+                android:id="@+id/ques3ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="answer3"
+                android:text="flourine" />
+
+            <RadioButton
+                android:id="@+id/ques3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="oxygen" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_l_r"
+            android:paddingTop="@dimen/pad_l_r"
+            android:text="@string/Q4"
+            android:textColor="@color/textCol"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ques4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Na" />
+
+            <RadioButton
+                android:id="@+id/ques4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ag" />
+
+            <RadioButton
+                android:id="@+id/ques4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hg" />
+
+            <RadioButton
+                android:id="@+id/ques4ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="answer4"
+                android:text="Fe" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_l_r"
+            android:paddingTop="@dimen/pad_l_r"
+            android:text="@string/Q5"
+            android:textColor="@color/textCol"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ques5ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="answer5"
+                android:text="smelting" />
+
+            <RadioButton
+                android:id="@+id/ques5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="roasting" />
+
+            <RadioButton
+                android:id="@+id/ques5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="calcination" />
+
+            <RadioButton
+                android:id="@+id/ques5c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="froth floation" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_l_r"
+            android:paddingTop="@dimen/pad_l_r"
+            android:text="@string/Q6"
+            android:textColor="@color/textCol"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/ques6ans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="answer6" />
+        <!--Henry's law -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_l_r"
+            android:paddingTop="@dimen/pad_l_r"
+            android:text="@string/Q7"
+            android:textColor="@color/textCol"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/ques7ans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="answer7" />
+        <!--chlorine-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad_l_r"
+            android:paddingTop="@dimen/pad_l_r"
+            android:text="@string/Q8"
+            android:textColor="@color/textCol"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ques8ans1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="answer8"
+            android:text="H2" />
+
+        <CheckBox
+            android:id="@+id/ques8a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CH4" />
+
+        <CheckBox
+            android:id="@+id/ques8ans2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="answer8"
+            android:text="-73oC" />
+
+        <CheckBox
+            android:id="@+id/ques8b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300K" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btnmargin"
+            android:layout_marginLeft="@dimen/btnleftmar"
+            android:layout_marginTop="@dimen/btnmargin"
+            android:onClick="submit"
+            android:text="submit answer"
+            android:textAllCaps="true"
+            android:textColor="@color/textCol" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Project3</string>
+    <string name="Q1">Q1. The nucleus of an atom consists of?</string>
+    <string name="Q2">Q2. The number of moles of solute present in 1 kg of a solvent is called its?</string>
+    <string name="Q3">Q3. The most electronegative element among the following is?</string>
+    <string name="Q4">Q4. The metal used to recover copper from a solution of copper sulphate is?</string>
+    <string name="Q5">Q5. The metallurgical process in which a metal is obtained in a fused state is called?</string>
+    <string name="Q6">Q6. The law which states that the amount of gas dissolved in a liquid is proportional to its partial pressure is?</string>
+    <string name="Q7">Q7. The most commonly used bleaching agent is?</string>
+    <string name="Q8">Q8. The molecules of which gas have highest speed and at what temperature?</string>
+    <string name="score1">Awesome! You Got All The Questions Correct!</string>
+    <string name="score2">Your Final Score Is </string>
+    <string name="score3">. Try Again.</string>
+</resources>
